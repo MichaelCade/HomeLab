@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName 192.168.2.173 -Credential Administrator -FilePath C:\Users\Michael\Desktop\EnableRemoteDesktop.ps1
