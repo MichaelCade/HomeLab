@@ -1,8 +1,6 @@
 ﻿#Connect to VC which is hosted on MSI (MGMT) and then Nested ESXi Hosts are shut down. 
 Connect-VIServer -server 192.168.2.11 -Protocol https -User Administrator@vzilla.co.uk
 
-#Rest 
-
 New-TagCategory -Name "Expiry Date" -Cardinality "Single" -EntityType "VirtualMachine" -Description "Expiry Date for VM"
 
 New-TagCategory -Name "Veeam" -Description "vSphere Tags for Backup and Replication tasks" 
